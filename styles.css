@@ -1,0 +1,521 @@
+body {
+  transition: Top 0.3s;
+}
+
+.head em {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.collapse {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg,#e44c9a 0%,#ffb511 100%);
+  color: #fff;
+  font-size: 15px;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #fff;
+}
+
+#search-button {
+  background-color: #e44c9a;
+}
+
+.nav-2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 30%;
+  margin-left: 25%;
+  margin-right: 20%;
+  position: absolute;
+  z-index: 1;
+  margin-top: 200px;
+  background: #032a33;
+  color:#fcffc1 ;
+
+}
+.nav-2 a {
+  color: #fcffc1;
+  text-decoration: none;
+}
+.nav-2 a:hover {
+  color: grey;
+}
+.toChange:hover {
+  background-color: grey;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.show-when-scroll {
+  background: linear-gradient(90deg,#e44c9a 0%,#ffb511 100%);
+}
+.show-when-scroll a {
+  color: #fff;
+}
+.show-when-scroll a:hover {
+  color: #a7bbc7;
+}
+#repositories
+{
+  background-color: #155263;
+}
+#navbar2 {
+  background-color: #000b49; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  padding: 1%;
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdownbtn {
+	background-color: #0dcaf0;
+	color: white;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.head {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+
+
+.Vision {
+  background: linear-gradient(to right, #5fbdb0, #e3e2c3,#3c9099);
+  color:#05004e ;
+  font-weight:589;
+  font-size: 18px;
+  padding: 3%;
+}
+#vision-and-mission h2
+{
+
+  text-shadow: 2px 2px 4px #000000;
+}
+.Vision h2
+{
+  color:white;
+  font-family: "Gelasio", serif;
+
+}
+
+.Mission {
+  padding: 3%;
+  background: linear-gradient(to right, #1f5357,#5fbdb0);
+  font-weight:589;
+  font-size: 18px;
+  color: white;
+}
+
+.Mission h2
+{
+  color:#fda831;
+  font-family: "Gelasio", serif;
+}
+
+.Objective {
+  background: linear-gradient(to right,#5fbdb0 , #e3e2c3,#5fbdb0);
+  color:#05004e ;
+  font-weight:589;
+  font-size: 18px;
+  padding: 3%;
+}
+.Objective h2
+{
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Gelasio", serif;
+}
+#Team {
+  background: linear-gradient(to right,#5fbdb0 , #e3e2c3,#5fbdb0);
+  color:]#f2f089 ;
+  font-weight:589;
+  font-size: 18px;
+  padding: 3%;
+}
+.team-button-container
+{
+  align-items: center;
+  padding: 1%;
+}
+#Team h2
+{
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Gelasio", serif;
+}
+#repositories h2
+{
+  color:white;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: "Gelasio", serif;
+}
+h2
+{
+  padding: 1%;
+}
+.why-and-wherefore h2
+{
+  font-family: "Gelasio", serif;
+  color:#fda831;
+  text-shadow: 2px 2px 4px #000000;
+}
+.why-and-wherefore {
+  padding: 3%;
+  background: linear-gradient(to right, #1f5357,#5fbdb0);
+  font-weight:589;
+  font-size: 18px;
+  color: white;
+}
+#Universities h2
+{
+  font-family: "Gelasio", serif;
+  color:#fda831;
+  text-shadow: 2px 2px 4px #000000;
+}
+#Universities
+{
+  padding: 3%;
+  background: linear-gradient(to right, #1f5357,#5fbdb0);
+  font-weight:589;
+  font-size: 18px;
+  color: white;
+}
+#showM a {
+  padding:1%;
+  font-weight: 500;
+  text-decoration: none;
+  color:#05004e ;
+  font-family:'Vollkorn', serif;
+  padding-bottom:10px;
+  font-weight:589;
+  font-size: 22px;
+}
+#showM a:hover {
+  color: #475762;
+}
+
+.team-button-container {
+	display: flex;
+	justify-content: 0 auto;
+	text-align: center;
+}
+
+.team h2 {
+  padding-top: 10px;
+  color: white;
+}
+#lang {
+  color: #ffc93c;
+  font-size: 20px;
+}
+#repos {
+  color: #36486b;
+  font-size: 20px;
+}
+#repositories a {
+  color: #ffc93c;
+  text-decoration: none;
+}
+#repos a:hover {
+  color: #d5ab9c;
+}
+
+.universities {
+  padding: 3%;
+  background: linear-gradient(to right, white, lightblue);
+}
+.data-repositories {
+  padding: 3%;
+}
+.universities a {
+  text-decoration: none;
+  color: #36486b;
+}
+.universities a:hover {
+  color: #a96e5b;
+}
+
+#faculty-info {
+  background-color: #ececec;
+  color: #00204a;
+  padding: 25px;
+  margin: 10px;
+}
+#faculty-trained  {
+  background-color: #385170;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 600;
+}
+#proj-head h3 {
+  color: #f2e394;
+}
+#proj-head {
+  background-color: #588c7e;
+  padding: 3%;
+  text-align: center;
+}
+#consultancy-projects {
+  background-color: #ececec;
+  color: #00204a;
+  padding: 25px;
+  margin: 10px;
+}
+#consultancy-proj1
+{
+  padding:3%;
+  margin:10px;
+  background-color: #e8d4b4;
+}
+
+#consultancy-proj1 h4
+{
+ font-size: 35px;
+ font-weight: 600;
+}
+#consultancy-proj2
+{
+  padding:3%;
+  margin:10px;
+  background-color: #e8d4b4;
+}
+
+#consultancy-proj2 h4
+{
+ font-size: 35px;
+ font-weight: 600;
+}
+#consultancy-proj3
+{
+  padding:3%;
+  margin:10px;
+  background-color: #e8d4b4;
+}
+
+#consultancy-proj3 h4
+{
+ font-size: 35px;
+ font-weight: 600;
+}
+#consultancy-proj4
+{
+  padding: 20px;
+  margin:10px;
+  background-color: #e8d4b4;
+}
+
+#consultancy-proj4 h4
+{
+ font-size: 35px;
+ font-weight: 600;
+}
+
+#projs
+{
+  padding:5%;
+  margin:10px;
+}
+#patent1
+{
+  padding: 20px;
+  margin:10px;
+  background-color:#a0e4b0;
+  color:#005082;
+}
+
+#patent-p
+{
+font-family: "Gelasio", serif;
+color:#28615b;
+}
+#patent2
+{
+  padding: 20px;
+  margin:10px;
+  background-color: #a0e4b0 ;
+  color:#005082;
+}
+
+#patent3
+{
+  padding: 20px;
+  margin:10px;
+  background-color: #a0e4b0;
+  color:#005082;
+}
+
+#patents
+{
+  background-color: #ebe6e6;
+
+}
+#patent-head
+{
+  background-color: #385170;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 600;
+
+}
+
+
+#consult-p
+{
+  padding-top:5px;
+  font-size:23px;
+  color: #872341;
+}
+#consult-head
+{
+    background-color: #385170;
+    text-align: center;
+    padding-top:25px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: 600;
+  }
+
+
+h4 {
+  font-family: "Gelasio", serif;
+}
+.card-body {
+  padding-top: 10px;
+}
+h3 {
+  font-family: "Gelasio", serif;
+  color: #3b3a30;
+  font-weight: 900;
+  width: 50;
+}
+#inhouse h3
+{
+  background-color: #385170;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 600;
+}
+#inhouse h4
+{
+  font-family: 'Secular One', sans-serif;
+}
+#inhouse
+{
+  background-color: #ececec;
+  color: #00204a;
+  padding: 25px;
+  margin: 10px;
+}
+
+.consultancy projects {
+  padding: 3%;
+}
+
+h3 {
+  color: white;
+}
+
+h2 em {
+  color: purple;
+}
+
+.data-repositories {
+  background-color: black;
+  color: white;
+}
+
+
+#publication {
+  background-color: #ececec;
+  color: #00204a;
+  padding: 25px;
+  margin: 10px;
+}
+#publication-head
+{
+  background-color: #385170;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+#invited-talks h2{
+  background-color: #385170;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 600;
+}
+#invited-talks h4{
+  background-color: #668ba4;
+  text-align: center;
+  padding-top:25px;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: 600;
+}
+#invited-talks {
+  background-color: #ececec;
+  color: #00204a;
+  padding: 25px;
+  margin: 10px;
+}
